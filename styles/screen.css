@@ -1,9 +1,9 @@
 body {
     font-family: Helvetica, sans-serif;
     color: white;
-    background-color: #b8a496;
+    /* background: linear-gradient(#20033a, #0e0416); */
+    background-color: black;
     padding: 0 40px;
-    /* text-align: center; */
 }
 
 h1 {
@@ -31,12 +31,21 @@ section {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#020F29, #000000);
+    /* background-color: rgba(209, 210, 255, 0.9); */
+    background-color: rgb(228, 228, 228);
+    color: black;
     height: 325px;
     width: 240px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    transition-duration: .3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 1);
+    /* background-color: rgba(24, 23, 23, .5); */
 }
 
 .planet-circle {
