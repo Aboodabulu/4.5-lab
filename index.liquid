@@ -1,7 +1,17 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: Planetary Cards
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<section class="grid-container">
+  {% include 'planets', name: "Sun", misc: "G2V" class:"sun" %}
+  {% include 'planets', name: "Mercury", misc: "AU 0.39" class: "mercury" %}
+  {% include 'planets', name: "Venus", misc: "AU 0.72" class: "venus" %}
+  {% include 'planets', name: "Earth", misc: "AU 1.00" class: "earth" %}
+  {% include 'planets', name: "Mars", misc: "AU 1.52" class: "mars" %}
+  {% include 'planets', name: "Jupiter", misc: "AU 5.20" class: "jupiter" %}
+  {% include 'planets', name: "Saturn", misc: "AU 9.54" class: "saturn" %}
+  {% include 'planets', name: "Uranus", misc: "AU 19.22" class: "uranus" %}
+  {% include 'planets', name: "Neptune", misc: "AU 30.06" class: "neptune" %}
+
+</section
