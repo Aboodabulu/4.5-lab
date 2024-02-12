@@ -1,8 +1,8 @@
 body {
     font-family: Helvetica, sans-serif;
-    color: white;
+    color: black;
     /* background: linear-gradient(#20033a, #0e0416); */
-    background-color: black;
+    background-color: #F4F4F7;
     padding: 0 40px;
 }
 
@@ -32,8 +32,8 @@ section {
     display: flex;
     flex-direction: column;
     /* background-color: rgba(209, 210, 255, 0.9); */
-    background-color: rgb(228, 228, 228);
-    color: black;
+    background-color: #2E313C;
+    color: white;
     height: 325px;
     width: 240px;
     align-items: center;
@@ -43,8 +43,9 @@ section {
 }
 
 .card:hover {
+    background-color: black;
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px rgba(0,0,0, 1);
     /* background-color: rgba(24, 23, 23, .5); */
 }
 
@@ -73,32 +74,40 @@ section {
 
 .mercury .planet-circle {
     background-color: #9E9E8F;
+    width: 38px; height: 38px;
 }
 
 .venus .planet-circle {
     background-color: #b8993f;
+    width: 95px; height: 95px;
 }
 
 .earth .planet-circle {
     background-color: #6B93D6;
+    width: 100px; height: 100px;
 }
 
 .mars .planet-circle {
     background-color: #7e432a;
+    width: 53px; height: 53px;
 }
 
 .jupiter .planet-circle {
     background-color: #B6A19E;
+    width: 224px; height: 224px;
 }
 
 .saturn .planet-circle {
     background-color: #F4CEA0;
+    width: 189px; height: 189px;
 }
 
 .uranus .planet-circle {
     background-color: #A9DDEC;
+    width: 80px; height: 80px;
 }
 
 .neptune .planet-circle {
     background-color: #466DAB;
+    width: 77px; height: 77px;
 }
